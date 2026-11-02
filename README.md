@@ -1,29 +1,16 @@
-# Rose Cakes - Web Site
+# React + Vite
 
-A single-page website for a high-end confectionery specializing in weddings and events. Built with React, fully responsive, and designed to turn visitors into WhatsApp inquiries.
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- Responsive navigation bar with mobile menu
-- Hero section with call to action
-- Photo gallery with an editorial grid layout
-- Interactive sweets section: pick your favorites and send them in a WhatsApp message
-- Customer testimonials carousel
-- Contact section and floating WhatsApp button
-- Mobile-first design, optimized for desktop
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Tech Stack
+## React Compiler
 
-- [React](https://react.dev/)
-- CSS3 (custom properties, Grid, Flexbox)
-- Google Fonts (Cormorant Garamond, Jost)
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
+## Expanding the Oxlint configuration
 
-## Project Structure
-
-```
-src/
-├── App.jsx    # Page sections and logic
-├── App.css    # Styles (mobile-first)
-└── main.jsx   # Entry point
-```
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
